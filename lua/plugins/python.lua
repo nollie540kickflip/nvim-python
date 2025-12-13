@@ -6,7 +6,10 @@ return {
       vim.lsp.config.pyright = {
         settings = {
           python = {
-            analysis = { typeCheckingMode = "basic" },
+            analysis = { 
+                typeCheckingMode = "basic",
+                autoImportCompletions = true,
+            },
           },
         },
       }
