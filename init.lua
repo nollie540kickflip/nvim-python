@@ -1,6 +1,6 @@
 require("core.options")
 require("core.keymaps")
-require("core.autocmds")
+require("core.terminal")
 
 -- lazy.nvim 本体のロードだけをここで行う
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
