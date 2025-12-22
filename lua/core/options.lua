@@ -6,4 +6,3 @@ vim.opt.tabstop = 4
 vim.opt.smartindent = true
 vim.opt.clipboard = "unnamedplus"
 vim.opt.termguicolors = true
-

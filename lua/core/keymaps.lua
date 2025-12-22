@@ -6,6 +6,5 @@ vim.keymap.set("n", "<leader>q", ":q<CR>")
 
 -- LSP: フォーマット
 vim.keymap.set("n", "<leader>f", function()
-  vim.lsp.buf.format({ async = true })
+    vim.lsp.buf.format({ async = true })
 end)
-
