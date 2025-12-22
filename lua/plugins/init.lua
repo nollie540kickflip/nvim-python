@@ -4,5 +4,6 @@ return {
   { import = "plugins.cmp" },
   { import = "plugins.catppuccin" },
   { import = "plugins.lualine" },
+  { import = "plugins.autopairs" },
 }
 
