@@ -7,4 +7,6 @@ return {
     { import = "plugins.autopairs" },
     { import = "plugins.formatting" },
     { import = "plugins.mason" },
+    { import = "plugins.ui" },
+    { import = "plugins.nvim-tree" },
 }
