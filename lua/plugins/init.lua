@@ -9,4 +9,5 @@ return {
     { import = "plugins.mason" },
     { import = "plugins.ui" },
     { import = "plugins.nvim-tree" },
+    { import = "plugins.lsp" },
 }
