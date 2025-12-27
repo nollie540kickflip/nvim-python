@@ -9,4 +9,6 @@ return {
     { import = "plugins.ui" },
     { import = "plugins.nvim-tree" },
     { import = "plugins.lsp" },
+    { import = "plugins.alpha" },
+    { import = "plugins.telescope" },
 }
