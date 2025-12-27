@@ -21,7 +21,7 @@ return {
         config = function()
             require("mason-lspconfig").setup({
                 -- ここに自動インストールしたいLSPを書く
-                ensure_installed = { "lua_ls", "pyright" },
+                ensure_installed = { "lua_ls", "pyright", "ruff" },
             })
         end,
     },
